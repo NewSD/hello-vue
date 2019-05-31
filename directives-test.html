@@ -8,8 +8,10 @@
 <div id="app">
     <p v-if="show">显示这段文字</p>
     <a v-bind:href="url">链接</a>
+    <a :href="url">链接</a>
     <!--<img v-bind:src="imgUrl">-->
     <button v-on:click="handleClose">点击隐藏</button>
+    <button @click="handleClose">点击隐藏</button>
 </div>
 
 
@@ -24,11 +26,22 @@
         },
         methods:{
             handleClose: function () {
+                this.close();
+            },
+            close : function () {
                 this.show = false;
+            },
+            init: function (text) {
+                console.log(text);
             }
+        },
+        mounted:function () {
+            this.init('初始化时调用');
+
         }
 
-    })
+    });
+    app.init('通过外部调用;')
 </script>
 
 </body>
