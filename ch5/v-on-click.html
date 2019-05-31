@@ -8,6 +8,9 @@
 <div id="app">
     点击次数:{{counter}}
     <button @click="counter++">+1</button>
+    <button @click="handleAdd()">+1</button>
+    <button @click="handleAdd(10)">+10</button>
+    <button @click="handleAdd(11)">+11</button>
 </div>
 
 <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
@@ -16,6 +19,13 @@
         el: '#app',
         data: {
             counter: 0
+        },
+        methods: {
+            handleAdd: function (count) {
+                console.log(count)
+                count = count || 1;
+                this.counter += count;
+            }
         }
     });
 
