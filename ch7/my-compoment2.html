@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <my-compoment></my-compoment>
+</div>
+
+<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+<script>
+    var Child =  {
+        template: '<div>局部注册组件的内容</div>'
+    };
+    var app = new Vue({
+        el: '#app',
+        components: {
+            'my-compoment': Child
+        },
+    });
+
+</script>
+
+</body>
+</html>
