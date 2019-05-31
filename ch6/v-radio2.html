@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <input id="picked" type="checkbox" v-model="picked">
+    <label for="picked">选择状态:{{picked}}</label>
+    <br>
+    <input id="html" type="checkbox" v-model="checked" value="html">
+    <label for="html">Html</label>
+    <br>
+    <input id="js" type="checkbox" v-model="checked" value="js">
+    <label for="js">js</label>
+    <br>
+    <input id="css" type="checkbox" v-model="checked" value="css">
+    <label for="css">css</label>
+    <p>选择的项是:{{checked}}</p>
+</div>
+
+
+<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            picked: false,
+            checked: ['html','js']
+        }
+    });
+
+</script>
+</body>
+</html>
