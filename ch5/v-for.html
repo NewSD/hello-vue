@@ -9,6 +9,21 @@
     <ul>
         <li v-for="book in books">{{book.name}}</li>
     </ul>
+    <ul>
+        <li v-for="(book,index) in books">{{ index }} - {{book.name}}</li>
+    </ul>
+    <ul>
+        <template v-for="book in books">
+            <li>书名:{{book.name}}</li>
+            <li>作者:{{book.author}}</li>
+        </template>
+    </ul>
+    <span v-for="value in user">{{value}}</span>
+    <ul>
+        <li v-for="(value, key, index) in user">
+            {{index}}-{{key}}:{{value}}
+        </li>
+    </ul>
 </div>
 
 
@@ -18,10 +33,15 @@
         el: '#app',
         data: {
             books: [
-                {name:'Vue.js实战'},
-                {name:'JavaScript语言精粹'},
-                {name:'JavaScript高级程序设计'}
-            ]
+                {name: 'Vue.js实战', author: '梁灏'},
+                {name: 'JavaScript语言精粹', author: 'Douglas Crockford'},
+                {name: 'JavaScript高级程序设计', author: 'Nicholas C.Zakas'}
+            ],
+            user: {
+                name: 'Arsen',
+                gender: '男',
+                age: 26
+            }
         }
     });
 
