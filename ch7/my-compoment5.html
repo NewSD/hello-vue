@@ -14,13 +14,12 @@
 
 <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
 <script>
-    var data = {
-        counter: 0
-    };
     Vue.component('my-compoment', {
         template: '<button @click="counter++">{{ counter }}</button>',
         data: function () {
-            return data;
+            return {
+                counter: 0
+            };
         }
     });
     var app = new Vue({
