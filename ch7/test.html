@@ -1,0 +1,20 @@
+<Card style="width: 350px">
+    <p slot="title">chat with xxx ...</p>
+    <a href="#" slot="extra">
+        <Icon type="android-close" size="18"></Icon>
+    </a>
+    <div style="height: 100px">
+
+    </div>
+    <div>
+        <Row :gutter="16">
+            <i-col span="17">
+                <i-input v-model="value"
+                         placeholder="Please input ..."></i-input>
+                <i-col span="4">
+                    <i-button type="primary" icon="paper-airplane">Send</i-button>
+                </i-col>
+            </i-col>
+        </Row>
+    </div>
+</Card>
