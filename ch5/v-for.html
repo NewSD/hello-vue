@@ -45,6 +45,19 @@
         }
     });
 
+    app.books.push({
+        name:'CSS解密',
+        author:'[希]Lea Verou'
+    });
+    app.books = app.books.filter(function (item) {
+        return item.name.match(/JavaScript/);
+    });
+    Vue.set(app.books,3,{
+        name:'CSS解密',
+        author:'[希]Lea Verou'
+    });
+
+
 
 </script>
 </body>
