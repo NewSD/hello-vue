@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue 计算属性</title>
+</head>
+<body>
+<div id="app">
+    <div>{{text.split(',').reverse().join(',')}}</div>
+    <div>{{reversedText}}</div>
+    <div>总价:{{prices}}</div>
+</div>
+
+
+<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            text: '123,456',
+            p1: [
+                {
+                    name: 'Iphone7',
+                    price: 7899,
+                    count: 2
+                },
+                {
+                    name: 'Ipad',
+                    price: 2899,
+                    count: 1
+                },
+            ],
+            p2: [
+                {
+                    name: 'apple',
+                    price: 3,
+                    count: 5
+                },
+                {
+                    name: 'banana',
+                    price: 2,
+                    count: 10
+                },
+            ],
+        },
+        computed: {
+            reversedText: function () {
+                return this.text.split(',').reverse().join(',');
+            },
+            prices: function () {
+                var prices = 0;
+                for (var i = 0; i < this.p1.length; i++) {
+                    prices += this.p1[i].price * this.p1[i].count;
+                }
+                for (var i = 0; i < this.p2.length; i++) {
+                    prices += this.p2[i].price * this.p2[i].count;
+                }
+                return prices;
+            }
+        }
+
+    })
+</script>
+
+</body>
+</html>
