@@ -9,6 +9,12 @@
     <p v-if="status === 1">当status=1时显示</p>
     <p v-else-if="status === 2">当status=2时显示</p>
     <p v-else>否则显示</p>
+
+    <template v-if="status === 1">
+        <p>这是一段文字</p>
+        <p>这是一段文字</p>
+        <p>这是一段文字</p>
+    </template>
 </div>
 
 
