@@ -6,9 +6,12 @@
 </head>
 <body>
 <div id="app">
-    {{book}},
-    当前时间:{{date}},
+    <div>{{book}},</div>
+    <div>当前时间:{{date}},</div>
     <span v-html="link"></span>
+    <div>{{number/10}}</div>
+    <div>{{isOK?'确定':'取消'}}</div>
+    <div>{{text.split(',').reverse().join(',')}}</div>
 </div>
 
 
@@ -20,7 +23,10 @@
             a: 2,
             book: '<<Vue.js实战>>',
             date: new Date(),
-            link: '<a href="hello.html">这是一个链接</a>'
+            link: '<a href="hello.html">这是一个链接</a>',
+            number:100,
+            isOK : false,
+            text : '123,456'
         },
 
         created: function () {
