@@ -8,6 +8,8 @@
 
 <div id="app">
     <button :class="classes"></button>
+    <div :style="{'color':color,'fontSize':fontSize+'px'}">文本</div>
+    <div :style="styles">文本</div>
 </div>
 
 <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
@@ -17,7 +19,13 @@
         data: {
             isActive: true,
             size: 'large',
-            disabled: true
+            disabled: true,
+            color: 'red',
+            fontSize: 14,
+            styles: {
+                color: 'red',
+                fontSize: 14 + 'px'
+            }
         },
         computed: {
             classes: function () {
