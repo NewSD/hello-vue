@@ -6,8 +6,9 @@
 </head>
 <body>
 <div id="app">
-    {{book}}
-    {{date}}
+    {{book}},
+    当前时间:{{date}},
+    <span v-html="link"></span>
 </div>
 
 
@@ -18,7 +19,8 @@
         data: {
             a: 2,
             book: '<<Vue.js实战>>',
-            date: new Date()
+            date: new Date(),
+            link: '<a href="hello.html">这是一个链接</a>'
         },
 
         created: function () {
@@ -33,7 +35,7 @@
         },
         beforeDestory: function () {
             if (this.timer) {
-                  clearInterval(this.timer);
+                clearInterval(this.timer);
             }
         }
     })
