@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01933389-a0f7-40a0-b169-2cb572ca57be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch7/change-view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch7/inline-tempalte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7/change-view2.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +29,7 @@
         <counts>
           <entry key="2html" value="1" />
           <entry key="css" value="3" />
-          <entry key="html" value="78" />
+          <entry key="html" value="79" />
           <entry key="jpg" value="2" />
           <entry key="js" value="3" />
         </counts>
@@ -39,7 +37,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="78" />
+          <entry key="HTML" value="79" />
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -48,14 +46,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="172" />
-          <entry key="html" value="10241" />
+          <entry key="html" value="10287" />
           <entry key="js" value="542" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="172" />
-          <entry key="HTML" value="10241" />
+          <entry key="HTML" value="10287" />
           <entry key="JavaScript" value="542" />
         </counts>
       </usages-collector>
@@ -63,15 +61,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch7/v-show-parent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" selection-start-line="7" selection-end-line="27" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch7/slot.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,11 +124,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch7/change-view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="324">
+              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch7/change-view2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -169,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/shopping-cart/index.html" />
         <option value="$PROJECT_DIR$/ch6/v-model-test.html" />
         <option value="$PROJECT_DIR$/ch6/v-model-test2.html" />
         <option value="$PROJECT_DIR$/ch6/v-model-test3.html" />
@@ -220,6 +217,7 @@
         <option value="$PROJECT_DIR$/ch7/higher-test.html" />
         <option value="$PROJECT_DIR$/ch7/inline-tempalte.html" />
         <option value="$PROJECT_DIR$/ch7/change-view.html" />
+        <option value="$PROJECT_DIR$/ch7/change-view2.html" />
       </list>
     </option>
   </component>
@@ -270,14 +268,14 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/compute-test.2html" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WorkSpaceWebStrom\hello-vue\ch1-ch4" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkSpaceWebStrom\hello-vue\ch7" />
       <recent name="D:\WorkSpaceWebStrom\hello-vue\ch6" />
       <recent name="D:\WorkSpaceWebStrom\hello-vue\ch5" />
       <recent name="D:\WorkSpaceWebStrom\hello-vue" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpaceWebStrom\hello-vue\ch1-ch4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,12 +304,12 @@
       <workItem from="1559309053341" duration="1572000" />
       <workItem from="1559360318667" duration="5883000" />
       <workItem from="1559382827650" duration="3888000" />
-      <workItem from="1559387892031" duration="743000" />
+      <workItem from="1559387892031" duration="949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42610000" />
+    <option name="totallyTimeSpent" value="42816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1211" height="735" extended-state="6" />
@@ -343,13 +341,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch6/v-selected.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch6/v-selected2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -691,8 +682,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch7/change-view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="324">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch7/change-view2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
         </state>
       </provider>
     </entry>
