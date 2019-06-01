@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <app-nav></app-nav>
+    <app-view>
+        <app-sidebar></app-sidebar>
+        <app-content></app-content>
+    </app-view>
+    <p>Using mustaches: {{ rawHtml }}</p>
+    <p>Using v-html directive: <span v-html="rawHtml"></span></p>
+    <div v-bind:id="dynamicId"></div>
+    <button v-bind:disabled="isButtonDisabled">Button</button>
+    {{ number + 1 }}
+
+    {{ ok ? 'YES' : 'NO' }}
+
+    {{ message.split('').reverse().join('') }}
+
+    <div v-bind:id="'list-' + id"></div>
+</div>
+
+
+<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+<script>
+
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            rawHtml: '<span style="color:red">This should be red</span>',
+            dynamicId: 21,
+            isButtonDisabled: true,
+            message: '123,456',
+            number: 23,
+            id: 12,
+            ok: false
+        }
+    });
+
+</script>
+</body>
+</html>
