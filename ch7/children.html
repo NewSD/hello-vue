@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <button @click="handleRef">通过ref获取子组件实例</button>
+    <my-component ref="comA"></my-component>
+</div>
+
+<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+<script>
+    var bus = new Vue();
+    Vue.component('my-component', {
+        template: '<div>子组件</div>',
+        data: function(){
+            return {
+                message: '子组件内容'
+            }
+        }
+    });
+
+    var app = new Vue({
+        el: '#app',
+        methods:{
+            handleRef:function(msg){
+                var msg = this.$refs.comA.message;
+                console.log(msg)
+            }
+        }
+
+    });
+</script>
+
+</body>
+</html>

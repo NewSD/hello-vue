@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    {{ message }}
+    <my-component></my-component>
+</div>
+
+<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+<script>
+    var bus = new Vue();
+    Vue.component('my-component', {
+        template: '<button @click="handleEvent">通过父链直接修改数据</button>',
+        methods: {
+            handleEvent: function () {
+                this.$parent.message = '来自my-component组件的数据';
+            }
+        }
+    });
+
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: ''
+        }
+
+    });
+</script>
+
+</body>
+</html>
