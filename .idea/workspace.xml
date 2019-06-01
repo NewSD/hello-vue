@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01933389-a0f7-40a0-b169-2cb572ca57be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch7/slot-books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch7/slot-navi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch7/slot-props.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch7/slot-test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch7/slot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch7/higher-test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,7 +30,7 @@
         <counts>
           <entry key="2html" value="1" />
           <entry key="css" value="3" />
-          <entry key="html" value="75" />
+          <entry key="html" value="76" />
           <entry key="jpg" value="2" />
           <entry key="js" value="3" />
         </counts>
@@ -42,7 +38,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="75" />
+          <entry key="HTML" value="76" />
           <entry key="Image" value="2" />
           <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -51,14 +47,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="172" />
-          <entry key="html" value="9637" />
+          <entry key="html" value="9888" />
           <entry key="js" value="542" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="172" />
-          <entry key="HTML" value="9637" />
+          <entry key="HTML" value="9888" />
           <entry key="JavaScript" value="542" />
         </counts>
       </usages-collector>
@@ -66,15 +62,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch7/parent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch7/children.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -138,11 +125,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch7/slot-test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+            <state relative-caret-position="172">
+              <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch7/higher-test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -172,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ch5/v-on-click.html" />
         <option value="$PROJECT_DIR$/shopping-cart/index.css" />
         <option value="$PROJECT_DIR$/shopping-cart/index.js" />
         <option value="$PROJECT_DIR$/shopping-cart/index.html" />
@@ -223,6 +218,7 @@
         <option value="$PROJECT_DIR$/ch7/slot-props.html" />
         <option value="$PROJECT_DIR$/ch7/slot-books.html" />
         <option value="$PROJECT_DIR$/ch7/slot-test.html" />
+        <option value="$PROJECT_DIR$/ch7/higher-test.html" />
       </list>
     </option>
   </component>
@@ -308,12 +304,12 @@
       <workItem from="1559272563464" duration="30524000" />
       <workItem from="1559309053341" duration="1572000" />
       <workItem from="1559360318667" duration="5883000" />
-      <workItem from="1559382827650" duration="3333000" />
+      <workItem from="1559382827650" duration="3803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41312000" />
+    <option name="totallyTimeSpent" value="41782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1211" height="735" extended-state="6" />
@@ -345,13 +341,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch6/v-model-test4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch6/v-radio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -693,8 +682,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch7/slot-test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+        <state relative-caret-position="172">
+          <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch7/higher-test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
