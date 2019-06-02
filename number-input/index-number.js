@@ -2,10 +2,10 @@ function isValueNumber(value) {
     return (/(^-?[0-9]+\.{1}\d+$)|(^-?[1-9][0-9]*$)|(^-?0{1}$)/).test(value) + '';
 };
 
-Vue.component('input-number', {
+var input_number = Vue.component('input-number', {
     template: `
         <div class="input-number">
-        <input type="text" :value="currentValue" @change="handleChange">
+        输入数字:<input type="text" :value="currentValue" @change="handleChange">
         <button @click="handleDown" :disabled="currentValue<=min">-</button>
         <button @click="handleUp" :disabled="currentValue>=max">+</button>
 </div>
@@ -22,7 +22,7 @@ Vue.component('input-number', {
         value: {
             type: Number,
             default: 0
-        },
+        }
     },
     data: function () {
         return {
